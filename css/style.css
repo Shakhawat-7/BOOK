@@ -1,0 +1,531 @@
+/*google fonts integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*global css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Quicksand', sans-serif;
+}
+a, span, p, input{
+	font-family: 'Roboto', sans-serif;
+}
+/*header part css*/
+
+.header{
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+}
+.header span{
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+/*header part css end*/
+/*banner part start*/
+
+.banner{
+	width: 100%;
+	height: 100vh;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 15px;
+	height: 100px;
+}
+.col-6left{
+	width: 50%;
+	float: left;
+	height: 100px;
+	margin-top: 30px;
+}
+.col-6right{
+	width: 50%;
+	float: right;
+	height: 100px;
+}	
+.col-1{
+	width: 15%;
+	float: left;
+}
+.col-11{
+	width: 85%;
+	float: right;
+}
+.col-6left h1{
+	font-size: 48px;
+	margin-top: 75px;
+
+}
+.col-6left p{
+	font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 35px;
+	color: #4c527d;
+}
+.banner button{
+	padding: 15px 45px;
+	border-radius: 30px;
+	outline:none;	
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 600;	
+}
+.banner .left-button{
+	background-color: #ed6524;
+	font-size: 20px;
+	color: white;
+}
+.banner .right-button{
+	background-color: white;
+	font-size: 20px;
+	color: #ed6524;
+} 
+.banner .right-button:hover{
+	background-color: #ed6524;
+	color: white;	
+	transition: 0.75s;
+}
+.testimonial{
+	width: 100%;
+	margin-top: 40px 0;
+}
+.message{
+	height: 140px;
+	width: 100%;
+	background: #f6f4fc;
+	border-left: 4px solid #f5a782;
+	margin: 0px 0px 18px;
+	padding: 10px;
+	position: relative;	
+}
+.message p{
+	font-size: 22px;
+	color: #4c527d;
+	font-style: italic;
+	position: relative;
+	line-height: 30px;
+}
+.corner-box{
+	height: 40px;
+	width: 40px;
+	background: #f6f4fc;
+	position: absolute;
+	transform: rotate(45deg);
+	bottom: -20px;
+	left: 5%;
+}
+.user{
+	width: 100%;	
+	height: 70px;
+	margin-top: 28px; 
+}
+.user img{
+	width: 65px;
+}
+.user-info p{
+	margin: 8px 10px !important;
+	padding: 0 !important;
+	font-weight: 400 !important;
+	line-height: 20px;
+	color: #4c527d;
+}
+
+.banner-right{
+	width: 100%;
+	margin: 0px 80px;
+
+}
+.See-all{
+	width: 100%;
+	text-align: center;
+}
+.See-all a:hover{
+	color: #ed6524;
+}
+.right-img{
+	position: relative;
+}
+.banner .circle{
+	height: 140px;
+	width: 140px;
+	background: green;
+	border-radius: 50%;		
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	right: 80px;
+	top: -60px;
+}
+.banner .circle h3{
+	padding-top: 40px;
+}
+
+/*banner part css end*/
+
+/*service part css start*/
+
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+    background-repeat: repeat-x;	
+}
+
+.container2{
+	width: 1140px;
+	margin: 0 auto;
+}
+.col{
+	width: 33.33%;
+	float: left;	
+}
+.service-title{
+	margin: 30px 0px;
+	text-align: center;
+}
+.service-title h1{
+	font-size: 42px;
+	margin: 50px 0;
+	padding-top: 80px;
+}
+.service-title p{
+	font-size: 22px;
+	line-height: 30px;
+	color: #4c527d;
+}
+.item{
+	text-align: center;
+	padding: 35px;
+}
+.item h3{
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+.item p{
+	color: #4c527d;
+	line-height: 22px;
+}
+/*services section end*/
+
+/*item section start*/
+
+.item-section{
+	width: 100%;
+	display: flow-root;
+	padding: 100px 0;
+}
+.item-title{
+	text-align: center;
+	margin: 40px 0;
+}
+.item-title h1{
+	font-size: 42px;
+	
+}
+.item-body{
+	width: 100%;
+	float: left;
+}
+.col-5{
+	width: 50%;
+	float: left;
+	line-height: 50px;
+	color: #4c527d;	
+}
+.item-text{
+	padding: 0 40px 40px 40px;
+}
+.item-text ul li{
+	font-size: 18px;
+	list-style: none;
+	margin-left: 10px; 	
+}
+.item-text ul li i{
+	color: #7FCDB8;
+	margin-right: 10px;
+}
+.item-text button{
+	background-color: #ed6524;
+	font-size: 20px;
+	color: white;
+	padding: 15px 45px;
+	border-radius: 30px;
+	outline:none;	
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	cursor: pointer;	
+}
+/*item section end*/
+
+/*book section start*/
+
+.book-review{
+	width: 100%;
+	display: flow-root;
+	padding: 100px 0;
+}
+.book-title{
+	text-align: center;
+	margin: 40px 0;
+}
+.reviews-01{
+	width: 100%;
+	float: left;
+}
+
+.book-title h1{
+	font-size: 42px;
+	margin-top: 50px;
+	padding-top: 80px;
+}
+.book-title p{
+	margin: 30px 180px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 25px;
+	line-height: 100px;
+	color: #4c527d;
+}	
+.book-body{
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 250px;
+}
+
+.book-body ul li{
+	list-style: none;
+	margin-left: 5px;
+	margin-top: 20px;
+	font-size: 25px;
+}
+.book-text ul li i{
+	color: #7FCDB8;
+	margin-top: 10px;
+}
+.book-text ul p{
+	line-height: 25px;
+	margin-top: 10px;
+	color: #4c527d;
+}	
+/*book section end*/
+/*login section start*/
+
+.login{
+	width: 100%;
+	display: flow-root;
+	padding: 50px 0;
+}
+.login-box{
+	width: 40%;	
+	margin: 0 auto;
+	padding: 50px 90px;
+	text-align: center;
+	background-color: #f6f4fc;
+	transition: all 0.5s ease-in-out;
+}
+.login-box p{
+	color: #4c527d;
+	margin: 20px 0;
+	font-size: 16px;
+	line-height: 25px;
+	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4)
+	transition: all 0.5s ease-in-out;
+}
+.email-input{
+	width: 50%;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+}
+.email-input:focus{
+	outline-color: #ed6524;
+}
+.submit-button{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #ed6524;
+	font-weight: 600;
+	border: 1px solid #ed6524;
+	border-radius: 3px;
+	cursor: pointer; 
+}
+/*login section end*/
+
+/*book review section start*/
+
+
+.book-review{
+	width: 100%;
+	display: flow-root;
+}
+.book-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.book-title h1{
+	font-size: 42px; 
+}
+.book-title p{
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 15px;
+	color: #4c527d;
+}
+.reviews-01{
+	width: 100%;
+	float: left;
+}
+.review-box{
+	padding: 15px;
+	background-color: #f6f4fc;
+	position: relative;
+	margin: 0 15px;
+}
+.col-1a{
+	width: 20%;
+	float: left;
+	line-height: 20px;
+}
+.col-11a{
+	width: 80%;
+	float: right;
+	line-height: 20px;	
+}
+.review-text p{
+	margin: 10px; 
+	line-height: 20px;
+	color: #4c527d;
+}
+.test-icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #ed6524;
+	position: absolute;
+	left: 40%;
+	top: -10%;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.review-02{
+	width: 100%;	
+	float: left;
+	margin: 50px 0;
+}
+.space{
+	margin: 10px 200px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+	line-height: 20px;
+	color: #4c527d;	
+}
+.get-item{
+	width: 100%;
+	text-align: center;
+}
+.get-item .get-button{
+	background-color: #ed6524;
+	font-size: 20px;
+	color: white;
+	padding: 15px 45px;
+	border-radius: 30px;
+	outline:none;	
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	cursor: pointer;	
+}		
+
+/*book review section end*/
+
+/*author section start*/
+
+.author{
+	width: 100%;
+	height: auto;
+	background-color: #ed6524;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.author-info{	
+	color: #fff;
+	text-align: center;
+}
+.author-info h1{
+	font-size: 42px;
+	margin-top: 30px;
+}
+.author-info h2{
+	font-size: 25px;
+	margin-top: 30px;
+}	
+.author-info p{
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-height: 25px;
+	text-align: left;
+}
+.author-info a:focus{
+	color: #fff;	
+}
+.contact{
+	width: 10px;
+	height: 10px;
+	color: gray;
+	border-radius: 50%;
+}
+.contact ul li{
+	text-align: center;
+}
+.social-media{
+	width: 100;
+	text-align: center;
+}
+.social-media i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.15);
+	margin-top: -5px; 
+}
+.social-icon a{
+	text-decoration: none;
+	color: #fff;
+	padding-top: 10px;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+/*author section end*/
